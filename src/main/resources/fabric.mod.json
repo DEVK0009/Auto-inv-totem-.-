@@ -1,0 +1,15 @@
+{
+  "schemaVersion": 1,
+  "id": "invtotem",
+  "version": "1.0.0",
+  "name": "InvTotem",
+  "description": "Inventory khulte hi totem offhand me daalta hai. /invtotem se GUI khulta hai.",
+  "environment": "client",
+  "entrypoints": { "client": ["dev.invtotem.InvTotemClient"] },
+  "depends": {
+    "fabricloader": ">=0.16.0",
+    "minecraft": "1.21.1",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
